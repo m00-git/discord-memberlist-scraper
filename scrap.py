@@ -19,6 +19,6 @@ async def getallmembers(self, ctx):
    users = '\n'.join(str(user) for user in ctx.guild.members)
    f.write(users)
 
-client.add_command(getallmembers) #or something shit idk
+client.add_command(getallmembers) #or some shit idk
 
 client.run(TOKEN_AUTH, bot=False)
